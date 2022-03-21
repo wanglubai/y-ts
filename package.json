@@ -1,0 +1,35 @@
+{
+  "name": "y-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "npx webpack serve --open --color",
+    "build": "npx webpack",
+    "sl": "node ./build/cli.js serve",
+    "bl": "node ./build/cli.js build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wanglubai/y-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wanglubai/y-ts/issues"
+  },
+  "homepage": "https://github.com/wanglubai/y-ts#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.2.3",
+    "html-webpack-plugin": "^5.5.0",
+    "inquirer": "^8.2.1",
+    "shelljs": "^0.8.5",
+    "webpack": "^5.70.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
